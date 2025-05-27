@@ -25,6 +25,7 @@ font-weigth: 400;
   backgroud-image: url("./imagem/backgroud.png");
   backgroud-repeat: no-repeat;
   backgroud-size: contain;
+  align-items: center;
   text-align: center;
 }
 
@@ -57,4 +58,41 @@ font-weigth: 400;
 .container_titulo{
   font-size: 28px;
   font-weight: 700;
+}
+
+.container_imagem{
+  margin: 1em 0 2em 0;
+}
+
+.container_caixa{
+  margin: 0 6em;
+}
+
+.secundario_imagem{
+  width: 80%;
+}
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descriçao_titulo{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.descriçao_texto{
+  color: var(--cinza-secundario);
+}
+
+.secundario_botao{
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.container_descriçao{
+  padding: 2em;
 }
